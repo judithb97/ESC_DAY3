@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """
 Created on Thu Apr  1 09:53:12 2021
@@ -20,3 +21,4 @@ def subtract(a, b):
 # uncomment the following test
 #def test_subtract():
 #    assert subtract(2, 3) == -1
+
