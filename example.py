@@ -1,3 +1,5 @@
+import pytest
+
 def add(a, b):
     return a + b
 
@@ -28,3 +30,6 @@ def factorial(n):
 
 def test_factorial():
     assert abs(factorial(5) - 5*4*3*2*1) < 1e-6
+    with pytest.raises(ValueError) as e:
+        factorial(-2)
+    assert str(e.value) == 'received negative input'
