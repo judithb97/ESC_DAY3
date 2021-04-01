@@ -63,5 +63,5 @@ def count_word_occurrence_in_file(file_name, word):
             count += words.count(word)
     return count
 
-def test_count_word_occurrence_in_file()
+def test_count_word_occurrence_in_file():
     assert ('ESC_DAY3/test_file.txt', 'is') == 2
