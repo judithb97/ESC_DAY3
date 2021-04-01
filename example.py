@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr  1 09:53:12 2021
-
-@author: judithboekee
-"""
-
 def add(a, b):
     return a + b
 
