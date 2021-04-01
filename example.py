@@ -33,3 +33,18 @@ def test_factorial():
     with pytest.raises(ValueError) as e:
         factorial(-2)
     assert str(e.value) == 'received negative input'
+
+    
+# 2
+def count_word_occurrence_in_string(text, word):
+    """
+    Counts how often word appears in text.
+    Example: if text is "one two one two three four"
+             and word is "one", then this function returns 2
+    """
+    words = text.split()
+    return words.count(word)
+
+def test_count_word_occurence_in_string():
+    assert count_word_occurent_in_string("test for the word word, it is there twice", "word") == 2
+    assert count_word_occurent_in_string("test for the word word, it is there twice", "cat") == 0
