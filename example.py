@@ -46,5 +46,5 @@ def count_word_occurrence_in_string(text, word):
     return words.count(word)
 
 def test_count_word_occurence_in_string():
-    assert count_word_occurrence_in_string("test for the word word, it is there twice", "word") == 2
-    assert count_word_occurrence_in_string("test for the word word, it is there twice", "cat") == 0
+    assert count_word_occurrence_in_string("test for the word word it is there twice", "word") == 2
+    assert count_word_occurrence_in_string("test for the word word it is there twice", "cat") == 0
